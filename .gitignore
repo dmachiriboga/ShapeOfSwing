@@ -1,32 +1,61 @@
-# Ignore data files and outputs
-*.tsv
-*.xlsx
-*.json
-*.npz
-*.npy
-*.h5
-*.hdf5
-*.pkl
-*.pickle
-*.log
-*.out
-*.pdf
-*.png
-*.jpg
-*.jpeg
-*.svg
-wjazzd.db
+# macOS metadata files# Ignore data files and outputs
 
-# Python
-__pycache__/
-*.py[cod]
-*$py.class
+._**.tsv
+
+.DS_Store*.xlsx
+
+.AppleDouble*.json
+
+.LSOverride*.npz
+
+*.npy
+
+# Python*.h5
+
+__pycache__/*.hdf5
+
+*.py[cod]*.pkl
+
+*$py.class*.pickle
+
+*.so*.log
+
+.Python*.out
+
+.venv/*.pdf
+
+venv/*.png
+
+ENV/*.jpg
+
+env/*.jpeg
+
+*.svg
+
+# IDEswjazzd.db
+
+.vscode/
+
+.idea/# Python
+
+*.swp__pycache__/
+
+*.swo*.py[cod]
+
+*~*$py.class
+
 *.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
+
+# Project specific.Python
+
+outputs/*.pngbuild/
+
+outputs/*.csvdevelop-eggs/
+
+outputs/phrase_shape_visualizations/dist/
+
+outputs/positional_visualizations/downloads/
+
 eggs/
 .eggs/
 lib/
